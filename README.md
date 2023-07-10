@@ -57,6 +57,7 @@ command = ncc_multiobject_manager # <execution .py file>
 paths = <path-to-tracker-source-directory> # <execution .py file path>
 ex) paths = /home/vots2023/integration/python
 env_PATH = <additional-env-paths>;${PATH} # <Python path>
+ex) env_PATH = /...(which python path);${PATH}
 ```
 
 ### 3. Execute code 
