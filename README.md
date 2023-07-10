@@ -74,12 +74,14 @@ ex) vot evaluate --workspace /home/vots2023/ TrackerPRO
 After running evaluation of a tracker and obtaining the raw results in the results directory, tracking performance can be calculated using the following command:
 ```
 vot analysis --workspace <workspace-path> <tracker-name>
+ex) vot analysis --workspace /home/vots2023/ TrackerPRO
 ```
 
 If you want to submit results as a part of a challenge, package them using the following command that will produce a zip file, with all the required data.
 ```
 vot pack --workspace <workspace-path> <tracker-name>
-Sign in and submit the .zip file: https://eu.aihub.ml/competitions/201#learn_the_details
+ex) vot pack --workspace /home/vots2023/ TrackerPRO
+Sign in and submit the .zip file to the competition homepage: https://eu.aihub.ml/competitions/201#learn_the_details
 ```
 
 ## Thank you for
