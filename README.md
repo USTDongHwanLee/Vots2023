@@ -21,7 +21,7 @@ More information: https://www.votchallenge.net/howto/overview.html
 pip install vot-toolkit
 pip install vot-trax
 vot initialize vots2023 --workspace <workspace-path>
-ex) <workspace-path>: /home/vots2023/
+ex) vot initialize vots2023 --workspace /home/vots2023/
 ```
 
 ## Running the code
